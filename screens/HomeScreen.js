@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
     marginTop: 50,
   },
-  buttons: {
+  buttonsB: {
     backgroundColor:"coral",
     alignItems: 'center',
     justifyContent: 'center',
@@ -74,9 +74,21 @@ const styles = StyleSheet.create({
     margin:10,
     width: 150,
     height: 50,
+    marginLeft:20
   },
   ratingContainer: {
     alignSelf: 'center',
     marginTop: 50,
+  },
+  buttonsA: {
+    backgroundColor:"coral",
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderWidth: 1,
+    borderRadius: 15,
+    margin:20,
+    width: 150,
+    height: 50,
+    marginTop:30
   },
 });
